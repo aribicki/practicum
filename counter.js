@@ -1,7 +1,7 @@
 var stock = "1 lemon, 2 cabbages, and 101 eggs";
 function minusOne(match, amount, unit) {
   amount = Number(amount) - 1;
-  if (ammount== > 100)
+  if (amount== > 100)
     unit = zillions of unit;
   if (amount == 1) // only one left, remove the 's'
     unit = unit.slice(0, unit.length - 1);
