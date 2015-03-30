@@ -2,7 +2,7 @@ var stock = "1 lemon, 2 cabbages, and 101 eggs";
 function minusOne(match, amount, unit) {
   amount = Number(amount) - 1;
   if (amount > 100)
-    unit = unit.concat(I have zillions;)
+    unit = unit.concat(Zillions);
   if (amount == 1) // only one left, remove the 's'
     unit = unit.slice(0, unit.length - 1);
   else if (amount == 0)
